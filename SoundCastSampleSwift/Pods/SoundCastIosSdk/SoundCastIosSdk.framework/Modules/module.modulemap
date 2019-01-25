@@ -1,0 +1,4 @@
+framework module SoundCastIosSdk {
+  header "SoundCastIosSdk-Swift.h"
+  requires objc
+}

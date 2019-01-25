@@ -1,0 +1,1 @@
+../../../../SoundCastIosSdk/SoundCastIosSdk.framework/Headers/SoundCastIosSdk-Swift.h
