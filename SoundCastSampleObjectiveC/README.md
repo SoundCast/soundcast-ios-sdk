@@ -12,7 +12,7 @@ SoundCastSdk is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```Objective-C
-pod 'SoundCastIosSdk', '~> 1.5.0.3'
+pod 'SoundCastIosSdk', '~> 1.5.0.5'
 ```
 
 Import the library in your **UIView**:
