@@ -54,7 +54,7 @@ To use:
 ```
 
 The **options** HashMap is used to contextualize your article, it contains :
-* **SoudncastID (String)**  
+* **SoundcastID (String)**  
 * **pageTitle (String):** Title of the page
 * **pageDescription (String):** Description of the page
 * **keywords (String):** Keywords for the targeting
