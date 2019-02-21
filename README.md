@@ -28,7 +28,7 @@ SoundcastSdk is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod install 'SoundCastIosSdk'
+pod 'SoundCastIosSdk'
 ```
 
 Import the library in your **UIView**:
@@ -54,9 +54,7 @@ To use:
 ```
 
 The **options** HashMap is used to contextualize your article, it contains :
-* **NetworkID (Int)** 
-* **SiteID (Int)**
-* **tagID (Int):**
+* **SoudncastID (String)**  
 * **pageTitle (String):** Title of the page
 * **pageDescription (String):** Description of the page
 * **keywords (String):** Keywords for the targeting

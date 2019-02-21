@@ -20,9 +20,9 @@ class ViewMain: BaseView, UITableViewDelegate, UITableViewDataSource, SoundCastD
     @IBOutlet weak var _sliderPlay: UISlider!
     @IBOutlet weak var _lblTotalTime: UILabel!
     @IBOutlet weak var _tbvEvents: UITableView!
-    @IBOutlet weak var _tfNetworkID: UITextField!
-    @IBOutlet weak var _tfSiteID: UITextField!
-    @IBOutlet weak var _tfTagID: UITextField!
+    @IBOutlet weak var _tfSoundcastID: UITextField!
+    // @IBOutlet weak var _tfSiteID: UITextField!
+    // @IBOutlet weak var _tfTagID: UITextField!
     @IBOutlet weak var _btnPlay: UIButton!
     @IBOutlet weak var _btnStop: UIButton!
     @IBOutlet weak var _btnSkipAD: UIButton!
@@ -162,7 +162,7 @@ class ViewMain: BaseView, UITableViewDelegate, UITableViewDataSource, SoundCastD
             }
             self.initViewMedia()
             self.addValueList(value: CallAd)
-            self.soundCastController?.loadAd(Int(_tfNetworkID.text ?? "1")!, Int(_tfSiteID.text ?? "1")!, Int(_tfTagID.text ?? "1")!, nil, nil, nil, nil, nil)
+            self.soundCastController?.loadAd((_tfSoundcastID.text ?? "5bfc551a4cb2e")!, nil, nil, nil, nil, nil)
         } else if isMainMedia! {
             if isPlayed {
                 pause()
@@ -241,7 +241,10 @@ class ViewMain: BaseView, UITableViewDelegate, UITableViewDataSource, SoundCastD
     }
 
     func onError(error: String) {
-        self.rootVC?.showDialog("Error", error)
+        //self.rootVC?.showDialog("Error", error)
+        print("Error --------------- "+error)
+        self.addValueList(value: ErrorAd)
+        self.updateValueSlider(Float(0))
     }
     
     func onErrorTracking(error: String) {

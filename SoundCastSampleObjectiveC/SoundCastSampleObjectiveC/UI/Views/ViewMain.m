@@ -79,10 +79,8 @@ NSString *const imageCheck = @"checked.png";
         }
         [self initViewMedia];
         [self addValues:CallAd];
-        int networkID = [self._tfNetworkID.text integerValue];
-        int siteID = [self._tfSiteID.text integerValue];
-        int tagID = [self._tfTagID.text integerValue];
-        [self.soundCastController loadAd:networkID : siteID : tagID :@"" :@"" :@"" :@"" :@""];
+        NSString  *soundcastID = [ self._tfSoundcastID text ];
+        [self.soundCastController loadAd:soundcastID :@"" :@"" :@"" :@"" :@""];
     } else if (self.isMedia == 1) {
         if (self.isPlayed) {
             [self pause];

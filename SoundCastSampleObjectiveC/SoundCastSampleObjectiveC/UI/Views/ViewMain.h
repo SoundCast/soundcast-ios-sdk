@@ -16,9 +16,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ViewMain : UIView <SoundCastDelegate, SoundCastDataSource, UITableViewDelegate, UITableViewDataSource>
-@property (weak, nonatomic) IBOutlet UITextField *_tfNetworkID;
-@property (weak, nonatomic) IBOutlet UITextField *_tfSiteID;
-@property (weak, nonatomic) IBOutlet UITextField *_tfTagID;
+@property (weak, nonatomic) IBOutlet UITextField *_tfSoundcastID;
 @property (weak, nonatomic) IBOutlet UIImageView *_imgTestMode;
 @property (weak, nonatomic) IBOutlet UIImageView *_imgMidRoll;
 @property (weak, nonatomic) IBOutlet UIButton *_btnPlay;

@@ -332,7 +332,7 @@ SWIFT_PROTOCOL("_TtP15SoundCastIosSdk17SoundCastProtocol_")
 @protocol SoundCastProtocol
 @property (nonatomic, strong) id <SoundCastDelegate> _Nullable delegate;
 @property (nonatomic, strong) id <SoundCastDataSource> _Nullable dataSource;
-- (void)loadAd:(NSInteger)networkID :(NSInteger)siteID :(NSInteger)tagID :(NSString * _Nullable)pageTitle :(NSString * _Nullable)pageDescription :(NSString * _Nullable)keywords :(NSString * _Nullable)pageUrl :(NSString * _Nullable)tags;
+- (void)loadAd:(NSString * _Nonnull)soundcastID :(NSString * _Nullable)pageTitle :(NSString * _Nullable)pageDescription :(NSString * _Nullable)keywords :(NSString * _Nullable)pageUrl :(NSString * _Nullable)tags;
 @end
 
 
@@ -355,7 +355,7 @@ SWIFT_CLASS("_TtC15SoundCastIosSdk19SoundCastController")
 - (ResponseModel * _Nullable)getResponseModel SWIFT_WARN_UNUSED_RESULT;
 - (NSXMLParser * _Nullable)getParser SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)firstCharacterLowcaseWithStr:(NSString * _Nonnull)str SWIFT_WARN_UNUSED_RESULT;
-- (void)loadAd:(NSInteger)networkID :(NSInteger)siteID :(NSInteger)tagID :(NSString * _Nullable)pageTitle :(NSString * _Nullable)pageDescription :(NSString * _Nullable)keywords :(NSString * _Nullable)pageUrl :(NSString * _Nullable)tags;
+- (void)loadAd:(NSString * _Nonnull)soundcastID :(NSString * _Nullable)pageTitle :(NSString * _Nullable)pageDescription :(NSString * _Nullable)keywords :(NSString * _Nullable)pageUrl :(NSString * _Nullable)tags;
 - (void)loadParserWithUrl:(NSString * _Nonnull)url;
 - (void)didFinishWithParserWithResponse:(NSXMLParser * _Nonnull)response;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
