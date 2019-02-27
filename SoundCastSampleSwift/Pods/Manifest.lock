@@ -1,16 +1,16 @@
 PODS:
-  - SoundCastIosSdk (1.5.0.6)
+  - SoundCastIosSdk (1.5.0.8)
 
 DEPENDENCIES:
-  - SoundCastIosSdk (~> 1.5.0.6)
+  - SoundCastIosSdk (~> 1.5.0.8)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - SoundCastIosSdk
 
 SPEC CHECKSUMS:
-  SoundCastIosSdk: adce49dad6bfc2c9580a54d7a758548054c72d09
+  SoundCastIosSdk: 58d8d65db5eacdddc148e7936c8060f4bb2a0b19
 
-PODFILE CHECKSUM: bb99ea68f2d25ed00c4e53b78a08074f412f8130
+PODFILE CHECKSUM: efe88a8c889ae7028ff5430a35432cb9f4009b98
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.0.beta.1

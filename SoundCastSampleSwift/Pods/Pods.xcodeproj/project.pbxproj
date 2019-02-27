@@ -6,25 +6,49 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		FB9F070F18EFCBD3E8DB1B1BD749D9DF /* SoundCastIosSdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 115AB4A5DB637253A63A3EF6AD18B45F /* Build configuration list for PBXAggregateTarget "SoundCastIosSdk" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SoundCastIosSdk;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		62590F77362FFDA98BC9F0518A9154A1 /* Pods-SoundCastSampleSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C7048DE0DE8E8E49AA1B538C0B3233 /* Pods-SoundCastSampleSwift-dummy.m */; };
+		EF8F132AB0950FA81C349F112FC1447D /* Pods-SoundCastSampleSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B56042F217ED36BD3BA43613700706D4 /* Pods-SoundCastSampleSwift-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		96C17FFF304A0EE1EDD3E1C1CE6F61EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9F070F18EFCBD3E8DB1B1BD749D9DF;
+			remoteInfo = SoundCastIosSdk;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		15941208E90794825A03B8CF0A750DBF /* SoundCastIosSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SoundCastIosSdk.framework; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3AE02E7C3C8E06C56B49E6BEAA5DE58A /* Pods-SoundCastSampleSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundCastSampleSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
-		619815F1C08DD81E8E9E621BDD34AFB2 /* Pods-SoundCastSampleSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundCastSampleSwift-resources.sh"; sourceTree = "<group>"; };
+		06C8CC4A91D77579CEE11AF6739440B6 /* SoundcastSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoundcastSdk.h; path = SoundCastIosSdk.framework/Headers/SoundcastSdk.h; sourceTree = "<group>"; };
+		0CC93C640F09CCDE77C07450026F6D74 /* Pods-SoundCastSampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundCastSampleSwift.release.xcconfig"; sourceTree = "<group>"; };
+		20BD03214107984D48DE17863D85506E /* Pods-SoundCastSampleSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundCastSampleSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		36CF6F80F9D864F047AE4FB70BA491C4 /* Pods-SoundCastSampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundCastSampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		44E15B7B9DECD232F34E27553E277C19 /* Pods-SoundCastSampleSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundCastSampleSwift-frameworks.sh"; sourceTree = "<group>"; };
+		4ADB2EACD530B8231E701225D35F8F9D /* Pods-SoundCastSampleSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundCastSampleSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59A6555AC7BF41E4C4CD24261A578F79 /* SoundCastIosSdk-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SoundCastIosSdk-Swift.h"; path = "SoundCastIosSdk.framework/Headers/SoundCastIosSdk-Swift.h"; sourceTree = "<group>"; };
+		751F0A0107FF880D969BFB00078EDE25 /* SoundCastIosSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SoundCastIosSdk.framework; sourceTree = "<group>"; };
 		83A5F82B297C5BA59017617938F52E04 /* libPods-SoundCastSampleSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SoundCastSampleSwift.a"; path = "libPods-SoundCastSampleSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85249AB66C49D816B52359D42841535E /* Pods-SoundCastSampleSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundCastSampleSwift-frameworks.sh"; sourceTree = "<group>"; };
-		99C7048DE0DE8E8E49AA1B538C0B3233 /* Pods-SoundCastSampleSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundCastSampleSwift-dummy.m"; sourceTree = "<group>"; };
-		C904F3D477B1DC4F1AC6473E0D8CF03C /* Pods-SoundCastSampleSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundCastSampleSwift-acknowledgements.plist"; sourceTree = "<group>"; };
-		F9D2D9F6F828788E53714A94F0B5578C /* Pods-SoundCastSampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundCastSampleSwift.release.xcconfig"; sourceTree = "<group>"; };
-		FE04145DB9E3CFF2811428936CBC592C /* Pods-SoundCastSampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundCastSampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B56042F217ED36BD3BA43613700706D4 /* Pods-SoundCastSampleSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundCastSampleSwift-dummy.m"; sourceTree = "<group>"; };
+		C557A7573DFA09863651DB7603FBDBC1 /* SoundCastIosSdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SoundCastIosSdk.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		96307EBF1C397DBDF3D3B078D45AE5F6 /* Frameworks */ = {
+		A740AB42E68A176298FEB0DFE59750F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,14 +58,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2927B660C7811E59B71FC619DCA64758 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				15941208E90794825A03B8CF0A750DBF /* SoundCastIosSdk.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		441A8EE03324DBA5EB199E6543998624 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -50,37 +66,65 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A576C4856DBDE1B348AD85535E94FD6 /* Pods */ = {
+		46DC0BB9E589221AC48C7E745DC62AEB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FDE2856DF66194DED1F0B053DCACF183 /* SoundCastIosSdk */,
+				AE99B183D3A23B3C567ACECA91957467 /* SoundCastIosSdk */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7400C82C14F0C4090377A4EC6A6C6D32 /* Pods-SoundCastSampleSwift */ = {
+		485143637D0E45DE4F98C069C73D7EDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3AE02E7C3C8E06C56B49E6BEAA5DE58A /* Pods-SoundCastSampleSwift-acknowledgements.markdown */,
-				C904F3D477B1DC4F1AC6473E0D8CF03C /* Pods-SoundCastSampleSwift-acknowledgements.plist */,
-				99C7048DE0DE8E8E49AA1B538C0B3233 /* Pods-SoundCastSampleSwift-dummy.m */,
-				85249AB66C49D816B52359D42841535E /* Pods-SoundCastSampleSwift-frameworks.sh */,
-				619815F1C08DD81E8E9E621BDD34AFB2 /* Pods-SoundCastSampleSwift-resources.sh */,
-				FE04145DB9E3CFF2811428936CBC592C /* Pods-SoundCastSampleSwift.debug.xcconfig */,
-				F9D2D9F6F828788E53714A94F0B5578C /* Pods-SoundCastSampleSwift.release.xcconfig */,
+				751F0A0107FF880D969BFB00078EDE25 /* SoundCastIosSdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BE8610B114AB1E1FDA6117D482E9ADE /* Pods-SoundCastSampleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4ADB2EACD530B8231E701225D35F8F9D /* Pods-SoundCastSampleSwift-acknowledgements.markdown */,
+				20BD03214107984D48DE17863D85506E /* Pods-SoundCastSampleSwift-acknowledgements.plist */,
+				B56042F217ED36BD3BA43613700706D4 /* Pods-SoundCastSampleSwift-dummy.m */,
+				44E15B7B9DECD232F34E27553E277C19 /* Pods-SoundCastSampleSwift-frameworks.sh */,
+				36CF6F80F9D864F047AE4FB70BA491C4 /* Pods-SoundCastSampleSwift.debug.xcconfig */,
+				0CC93C640F09CCDE77C07450026F6D74 /* Pods-SoundCastSampleSwift.release.xcconfig */,
 			);
 			name = "Pods-SoundCastSampleSwift";
 			path = "Target Support Files/Pods-SoundCastSampleSwift";
 			sourceTree = "<group>";
 		};
+		AE99B183D3A23B3C567ACECA91957467 /* SoundCastIosSdk */ = {
+			isa = PBXGroup;
+			children = (
+				59A6555AC7BF41E4C4CD24261A578F79 /* SoundCastIosSdk-Swift.h */,
+				06C8CC4A91D77579CEE11AF6739440B6 /* SoundcastSdk.h */,
+				485143637D0E45DE4F98C069C73D7EDA /* Frameworks */,
+				C30C64C92FE5408E34FC99E44444EBC6 /* Support Files */,
+			);
+			name = SoundCastIosSdk;
+			path = SoundCastIosSdk;
+			sourceTree = "<group>";
+		};
+		C30C64C92FE5408E34FC99E44444EBC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C557A7573DFA09863651DB7603FBDBC1 /* SoundCastIosSdk.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SoundCastIosSdk";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				4A576C4856DBDE1B348AD85535E94FD6 /* Pods */,
+				46DC0BB9E589221AC48C7E745DC62AEB /* Pods */,
 				441A8EE03324DBA5EB199E6543998624 /* Products */,
-				F1543CF108B49349A121A619BF4462B8 /* Targets Support Files */,
+				DCA146D91E758FD57AFFA24BD6C6EA98 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,27 +135,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F1543CF108B49349A121A619BF4462B8 /* Targets Support Files */ = {
+		DCA146D91E758FD57AFFA24BD6C6EA98 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7400C82C14F0C4090377A4EC6A6C6D32 /* Pods-SoundCastSampleSwift */,
+				9BE8610B114AB1E1FDA6117D482E9ADE /* Pods-SoundCastSampleSwift */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FDE2856DF66194DED1F0B053DCACF183 /* SoundCastIosSdk */ = {
-			isa = PBXGroup;
-			children = (
-				2927B660C7811E59B71FC619DCA64758 /* Frameworks */,
-			);
-			name = SoundCastIosSdk;
-			path = SoundCastIosSdk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DD2F9A17622B172F0C1725365C799DA7 /* Headers */ = {
+		DAB897830CFCB00E37491FD0ABD24F17 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,17 +156,18 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E7A6CB75FD29520B976A6957D9EEBA73 /* Pods-SoundCastSampleSwift */ = {
+		E2EDACD5DF06DD4AF8FEEFEE9702024C /* Pods-SoundCastSampleSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7E6F411331C3D40F8E1A5E587EAF471 /* Build configuration list for PBXNativeTarget "Pods-SoundCastSampleSwift" */;
+			buildConfigurationList = 2A2692980D52A6D504F479408DC29D38 /* Build configuration list for PBXNativeTarget "Pods-SoundCastSampleSwift" */;
 			buildPhases = (
-				DD2F9A17622B172F0C1725365C799DA7 /* Headers */,
-				E230CFE837F46012B9E33F71AEA29096 /* Sources */,
-				96307EBF1C397DBDF3D3B078D45AE5F6 /* Frameworks */,
+				DAB897830CFCB00E37491FD0ABD24F17 /* Headers */,
+				917B27861E02EDE6D6354036E6A03A3E /* Sources */,
+				A740AB42E68A176298FEB0DFE59750F5 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				63DB456738A82706DE10DE98284A270D /* PBXTargetDependency */,
 			);
 			name = "Pods-SoundCastSampleSwift";
 			productName = "Pods-SoundCastSampleSwift";
@@ -159,45 +195,34 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E7A6CB75FD29520B976A6957D9EEBA73 /* Pods-SoundCastSampleSwift */,
+				E2EDACD5DF06DD4AF8FEEFEE9702024C /* Pods-SoundCastSampleSwift */,
+				FB9F070F18EFCBD3E8DB1B1BD749D9DF /* SoundCastIosSdk */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E230CFE837F46012B9E33F71AEA29096 /* Sources */ = {
+		917B27861E02EDE6D6354036E6A03A3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62590F77362FFDA98BC9F0518A9154A1 /* Pods-SoundCastSampleSwift-dummy.m in Sources */,
+				EF8F132AB0950FA81C349F112FC1447D /* Pods-SoundCastSampleSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		35C368BBCB219A8E39A754755E9F4EB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE04145DB9E3CFF2811428936CBC592C /* Pods-SoundCastSampleSwift.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
+/* Begin PBXTargetDependency section */
+		63DB456738A82706DE10DE98284A270D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SoundCastIosSdk;
+			target = FB9F070F18EFCBD3E8DB1B1BD749D9DF /* SoundCastIosSdk */;
+			targetProxy = 96C17FFF304A0EE1EDD3E1C1CE6F61EE /* PBXContainerItemProxy */;
 		};
-		5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */ = {
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		638D24A23FDB051C1E24884E14B33A66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,8 +254,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -247,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,16 +282,33 @@
 			};
 			name = Release;
 		};
-		A22B103F5D8CEF13A0ED2CFF14F7984E /* Release */ = {
+		6BB526C4623A8D82FF95C7FCCC7DB106 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9D2D9F6F828788E53714A94F0B5578C /* Pods-SoundCastSampleSwift.release.xcconfig */;
+			baseConfigurationReference = C557A7573DFA09863651DB7603FBDBC1 /* SoundCastIosSdk.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70B858278CD1C3895BD9AF1D738CE9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC93C640F09CCDE77C07450026F6D74 /* Pods-SoundCastSampleSwift.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -281,7 +321,28 @@
 			};
 			name = Release;
 		};
-		B64E2C722A3EAD054D380F489370F012 /* Debug */ = {
+		8AAA524E842936914CEBBD5F8683B6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CF6F80F9D864F047AE4FB70BA491C4 /* Pods-SoundCastSampleSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CD2459487D67EBCA48E54BFB9FFA849 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,8 +374,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -334,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -347,23 +406,48 @@
 			};
 			name = Debug;
 		};
+		B513C61DE8D07EAEF3A437992370C654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C557A7573DFA09863651DB7603FBDBC1 /* SoundCastIosSdk.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		115AB4A5DB637253A63A3EF6AD18B45F /* Build configuration list for PBXAggregateTarget "SoundCastIosSdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B64E2C722A3EAD054D380F489370F012 /* Debug */,
-				5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */,
+				B513C61DE8D07EAEF3A437992370C654 /* Debug */,
+				6BB526C4623A8D82FF95C7FCCC7DB106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7E6F411331C3D40F8E1A5E587EAF471 /* Build configuration list for PBXNativeTarget "Pods-SoundCastSampleSwift" */ = {
+		2A2692980D52A6D504F479408DC29D38 /* Build configuration list for PBXNativeTarget "Pods-SoundCastSampleSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35C368BBCB219A8E39A754755E9F4EB7 /* Debug */,
-				A22B103F5D8CEF13A0ED2CFF14F7984E /* Release */,
+				8AAA524E842936914CEBBD5F8683B6BF /* Debug */,
+				70B858278CD1C3895BD9AF1D738CE9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD2459487D67EBCA48E54BFB9FFA849 /* Debug */,
+				638D24A23FDB051C1E24884E14B33A66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

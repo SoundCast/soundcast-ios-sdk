@@ -3,5 +3,6 @@
 
 target 'SoundCastSampleObjectiveC' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-   pod 'SoundCastIosSdk', '~> 1.5.0.6'
+   pod 'SoundCastIosSdk', '~> 1.5.0.8'
+   platform :ios, '9'
 end

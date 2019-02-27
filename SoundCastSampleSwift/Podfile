@@ -2,7 +2,8 @@
 # platform :ios, '9.0'
 
 target 'SoundCastSampleSwift' do
-   pod 'SoundCastIosSdk', '~> 1.5.0.6'
+   pod 'SoundCastIosSdk', '~> 1.5.0.8'
+   platform :ios, '9'
 end
 
 

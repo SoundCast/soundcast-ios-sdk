@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E7A6CB75FD29520B976A6957D9EEBA73"
+               BlueprintIdentifier = "E2EDACD5DF06DD4AF8FEEFEE9702024C"
+               BuildableName = "libPods-SoundCastSampleSwift.a"
                BlueprintName = "Pods-SoundCastSampleSwift"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-SoundCastSampleSwift.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
