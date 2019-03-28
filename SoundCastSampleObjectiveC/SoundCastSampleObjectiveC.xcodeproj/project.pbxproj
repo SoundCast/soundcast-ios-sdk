@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		20A80DE021FB4C3100762FA8 /* SoundCastIosSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A80DDF21FB4C3100762FA8 /* SoundCastIosSdk.framework */; };
-		BC9DE3D0296DFFC48D66DDF1 /* libPods-SoundCastSampleObjectiveC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8F1564424EA45E835D63F8 /* libPods-SoundCastSampleObjectiveC.a */; };
 		CA0C91A52151DFF400C6E4B6 /* TableViewCellEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0C91A32151DFF400C6E4B6 /* TableViewCellEvent.m */; };
 		CA0C91A62151DFF400C6E4B6 /* TableViewCellEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0C91A42151DFF400C6E4B6 /* TableViewCellEvent.xib */; };
 		CA7AE9F421510879001BDCF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AE9F321510879001BDCF8 /* AppDelegate.m */; };
@@ -24,14 +23,14 @@
 		CAFCE59321516E1C0041B4A1 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFCE58E21516E1C0041B4A1 /* pause.png */; };
 		CAFCE59421516E1C0041B4A1 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFCE58F21516E1C0041B4A1 /* stop.png */; };
 		CAFCE59521516E1C0041B4A1 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFCE59021516E1C0041B4A1 /* checked.png */; };
+		ED975C58B1A49BAE671E04B9 /* libPods-SoundCastSampleObjectiveC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE90ACC3AFA1850C2F6C4D02 /* libPods-SoundCastSampleObjectiveC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E8F1564424EA45E835D63F8 /* libPods-SoundCastSampleObjectiveC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoundCastSampleObjectiveC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		100B6A6D4E1DFE96ABC08216 /* Pods-SoundCastSampleObjectiveC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundCastSampleObjectiveC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundCastSampleObjectiveC/Pods-SoundCastSampleObjectiveC.debug.xcconfig"; sourceTree = "<group>"; };
 		20A80DDD21FB424D00762FA8 /* SoundCastIosSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SoundCastIosSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A80DDF21FB4C3100762FA8 /* SoundCastIosSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SoundCastIosSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AB2915CAA5C80D03E8EFD27 /* Pods-SoundCastSampleObjectiveC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundCastSampleObjectiveC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundCastSampleObjectiveC/Pods-SoundCastSampleObjectiveC.release.xcconfig"; sourceTree = "<group>"; };
+		659326C84C398287C3FF3B72 /* Pods-SoundCastSampleObjectiveC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundCastSampleObjectiveC.release.xcconfig"; path = "Target Support Files/Pods-SoundCastSampleObjectiveC/Pods-SoundCastSampleObjectiveC.release.xcconfig"; sourceTree = "<group>"; };
+		7A470B03E0EDC4C773D89E6E /* Pods-SoundCastSampleObjectiveC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundCastSampleObjectiveC.debug.xcconfig"; path = "Target Support Files/Pods-SoundCastSampleObjectiveC/Pods-SoundCastSampleObjectiveC.debug.xcconfig"; sourceTree = "<group>"; };
 		CA0C91A22151DFF400C6E4B6 /* TableViewCellEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellEvent.h; sourceTree = "<group>"; };
 		CA0C91A32151DFF400C6E4B6 /* TableViewCellEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellEvent.m; sourceTree = "<group>"; };
 		CA0C91A42151DFF400C6E4B6 /* TableViewCellEvent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellEvent.xib; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		CAFCE58E21516E1C0041B4A1 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../../../../SoundCastSampleSwift/SoundCastSampleSwift/Resources/Images/pause.png; sourceTree = "<group>"; };
 		CAFCE58F21516E1C0041B4A1 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = ../../../../SoundCastSampleSwift/SoundCastSampleSwift/Resources/Images/stop.png; sourceTree = "<group>"; };
 		CAFCE59021516E1C0041B4A1 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = ../../../../SoundCastSampleSwift/SoundCastSampleSwift/Resources/Images/checked.png; sourceTree = "<group>"; };
+		CE90ACC3AFA1850C2F6C4D02 /* libPods-SoundCastSampleObjectiveC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoundCastSampleObjectiveC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,28 +61,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				20A80DE021FB4C3100762FA8 /* SoundCastIosSdk.framework in Frameworks */,
-				BC9DE3D0296DFFC48D66DDF1 /* libPods-SoundCastSampleObjectiveC.a in Frameworks */,
+				ED975C58B1A49BAE671E04B9 /* libPods-SoundCastSampleObjectiveC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02BABFEF75EE6A4394748C8F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				100B6A6D4E1DFE96ABC08216 /* Pods-SoundCastSampleObjectiveC.debug.xcconfig */,
-				9AB2915CAA5C80D03E8EFD27 /* Pods-SoundCastSampleObjectiveC.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6BD73B46F10E43493004A1A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				20A80DDF21FB4C3100762FA8 /* SoundCastIosSdk.framework */,
 				20A80DDD21FB424D00762FA8 /* SoundCastIosSdk.framework */,
-				0E8F1564424EA45E835D63F8 /* libPods-SoundCastSampleObjectiveC.a */,
+				CE90ACC3AFA1850C2F6C4D02 /* libPods-SoundCastSampleObjectiveC.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,8 +93,8 @@
 			children = (
 				CA7AE9F121510879001BDCF8 /* SoundCastSampleObjectiveC */,
 				CA7AE9F021510879001BDCF8 /* Products */,
-				02BABFEF75EE6A4394748C8F /* Pods */,
 				6BD73B46F10E43493004A1A5 /* Frameworks */,
+				FA389C4C463B55E574BD1208 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,6 +171,16 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		FA389C4C463B55E574BD1208 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A470B03E0EDC4C773D89E6E /* Pods-SoundCastSampleObjectiveC.debug.xcconfig */,
+				659326C84C398287C3FF3B72 /* Pods-SoundCastSampleObjectiveC.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,11 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA7AEA052151087F001BDCF8 /* Build configuration list for PBXNativeTarget "SoundCastSampleObjectiveC" */;
 			buildPhases = (
-				20D735702D4F2D664EDF3984 /* [CP] Check Pods Manifest.lock */,
+				6651E00F4426E2F31AD6EBBA /* [CP] Check Pods Manifest.lock */,
 				CA7AE9EB21510879001BDCF8 /* Sources */,
 				CA7AE9EC21510879001BDCF8 /* Frameworks */,
 				CA7AE9ED21510879001BDCF8 /* Resources */,
-				53FD2995D20FCA223B094C74 /* [CP] Embed Pods Frameworks */,
+				3DCE1013952475324396A356 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,7 +256,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20D735702D4F2D664EDF3984 /* [CP] Check Pods Manifest.lock */ = {
+		3DCE1013952475324396A356 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundCastSampleObjectiveC/Pods-SoundCastSampleObjectiveC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundCastSampleObjectiveC/Pods-SoundCastSampleObjectiveC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoundCastSampleObjectiveC/Pods-SoundCastSampleObjectiveC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6651E00F4426E2F31AD6EBBA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,23 +293,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		53FD2995D20FCA223B094C74 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoundCastSampleObjectiveC/Pods-SoundCastSampleObjectiveC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoundCastSampleObjectiveC/Pods-SoundCastSampleObjectiveC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoundCastSampleObjectiveC/Pods-SoundCastSampleObjectiveC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -439,7 +440,7 @@
 		};
 		CA7AEA062151087F001BDCF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 100B6A6D4E1DFE96ABC08216 /* Pods-SoundCastSampleObjectiveC.debug.xcconfig */;
+			baseConfigurationReference = 7A470B03E0EDC4C773D89E6E /* Pods-SoundCastSampleObjectiveC.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -467,7 +468,7 @@
 		};
 		CA7AEA072151087F001BDCF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AB2915CAA5C80D03E8EFD27 /* Pods-SoundCastSampleObjectiveC.release.xcconfig */;
+			baseConfigurationReference = 659326C84C398287C3FF3B72 /* Pods-SoundCastSampleObjectiveC.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;

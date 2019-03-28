@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		202331F121FB39EA00EEFC0E /* SoundCastIosSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202331F021FB39EA00EEFC0E /* SoundCastIosSdk.framework */; };
-		6096A6F9B4E422C0D78F1CF4 /* libPods-SoundCastSampleSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5322A4777548E6BEC1AD36E3 /* libPods-SoundCastSampleSwift.a */; };
 		CA8591F2212116EC005292C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8591F1212116EC005292C0 /* AppDelegate.swift */; };
 		CA8591F9212116F0005292C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8591F8212116F0005292C0 /* Assets.xcassets */; };
 		CA8591FC212116F0005292C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8591FA212116F0005292C0 /* LaunchScreen.storyboard */; };
@@ -62,7 +61,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				202331F121FB39EA00EEFC0E /* SoundCastIosSdk.framework in Frameworks */,
-				6096A6F9B4E422C0D78F1CF4 /* libPods-SoundCastSampleSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +224,7 @@
 				TargetAttributes = {
 					CA8591ED212116EC005292C0 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -393,6 +391,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -448,6 +447,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -481,7 +481,7 @@
 				PROVISIONING_PROFILE = "04d1b422-6921-4967-b3b7-f038fdefe796";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_REFLECTION_METADATA_LEVEL = all;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -515,7 +515,7 @@
 				PROVISIONING_PROFILE = "04d1b422-6921-4967-b3b7-f038fdefe796";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_REFLECTION_METADATA_LEVEL = all;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
